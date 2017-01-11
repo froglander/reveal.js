@@ -77,7 +77,7 @@
 			touch: true,
 
 			// Loop the presentation
-			loop: false,
+			loop: true,
 
 			// Change the presentation direction to be RTL
 			rtl: false,
@@ -105,7 +105,7 @@
 			// Number of milliseconds between automatically proceeding to the
 			// next slide, disabled when set to 0, this value can be overwritten
 			// by using a data-autoslide attribute on your slides
-			autoSlide: 0,
+			autoSlide: 3000,
 
 			// Stop auto-sliding after user input
 			autoSlideStoppable: true,
