@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>polyfuel</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <!--1. Introduce yourself (since the video may be viewed by someone who doesn't know your name.-->
+            <h1>Polyfuel</h1>
+            <h3>Gas Mileage Tracking Webapp</h3>
+            <p>
+                <small>Created by <a href="http://github.com/froglander">Kristina Heredia</a> / <a
+                        href="http://twitter.com/polyhimnia">@polyhimnia</a></small>
+            </p>
+        </section>
+
+        <section>
+            <!--2. Describe the title and purpose of your final project.-->
+            <h3>Ever wonder if you are actually achieving the EPA listed mpg?</h3>
+            <p>
+                This app will provide an easy way to track gas mileage for one or many vehicles
+            </p>
+        </section>
+        <section>
+            <!--3. List the tech involved (framework, APIs, etc..).	-->
+            <h2>Tech Used</h2>
+            <ul>
+                <li>Current</li>
+                <ul>
+                    <li><b>M</b>ongoDB</li>
+                    <li><b>E</b>xpress</li>
+                    <li><b>R</b>eact</li>
+                    <li><b>N</b>ode</li>
+                </ul>
+                <li>Future</li>
+                <ul>
+                    <li>React Native</li>
+                    <li>Edmunds API for vehicle data</li>
+                </ul>
+            </ul>
+        </section>
+        <section>
+            <!--4. Show screenshots while talking of the actual final project, wireframes from development or stock photos that look really cool.-->
+            <section>
+                <h2>Screenshots</h2>
+            </section>
+            <section>
+                <img src="images/desktop-details.png" height="726" width="906"/>
+            </section>
+            <section>
+                <img src="images/desktop-new-fillup.png" height="451" width="929"/>
+            </section>
+            <section>
+                <img src="images/desktop-new-fillup-date.png" height="514" width="925"/>
+            </section>
+            <section>
+                <img src="images/desktop-new-vehicle.png" height="462" width="926"/>
+            </section>
+            <section>
+                <img src="images/mobile-details.PNG" height="680" width="382"/>
+            </section>
+        </section>
+        <section>
+            <!--5.  Identify what the biggest challenge is that you have overcome thus far, and-->
+            <h2>Challenges overcome</h2>
+            <p>Biggest challenge has been React. I would not count this as a challenge "overcome" just yet, but I am
+                definitely making progress!</p>
+            <p>I am also planning to write my own React tutorial once I get this figured out!</p>
+        </section>
+        <section>
+            <!--Stay on point, minimize self-deprecating comments and focus on what you have done so far that is positive.-->
+            <h2>Wrap up</h2>
+            <p>Any questions?</p>
+        </section>
+
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
+</html>
